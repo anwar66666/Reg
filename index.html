@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<div class="form">
+    <h2>Registration </h2>
+    <div class="First-name">
+        
+        <input id ='firstname' type="text" placeholder="Enter your First Name">
+
+    </div>
+    <div class="last-name">
+        
+        <input id ='lastname' type="text" placeholder="Enter your Last Name">
+
+    </div>
+    <div class="Door-number">
+        
+        <input id ='doornumber' type="number" placeholder="Enter your Door number">
+
+    </div>
+    <div class="street">
+        
+        <input  id ='street' type="text" placeholder="Enter your Street">
+
+    </div>
+    <div class="landmark">
+        
+        <input id ='landmark'  type="text" placeholder="Enter your Landmark">
+    </div>
+    <div class="mobile">
+        
+        <input id ='mobile' type="number" placeholder="Enter your Mobile">
+    </div>
+    <div class="pincode">
+        
+        <input id ='pincode' type="number" placeholder="Enter your PinCode">
+
+    </div>
+
+    <button id='btn' onclick="detail()">Submit</button>
+
+</div>
+<script>
+
+
+let firstname=document.getElementById("firstname")
+let lastname=document.getElementById("lastname")
+let doornumber=document.getElementById("doornumber")
+let street=document.getElementById("street")
+let landmark=document.getElementById("landmark")
+let mobile=document.getElementById("mobile")
+let pincode=document.getElementById("pincode")
+let btn=document.getElementById("btn")
+
+value=firstname.value
+
+
+
+function detail(){
+    console.log("firstname : ",firstname.value)
+    console.log("lastname : ",lastname.value)
+    console.log("doornumber : ",doornumber.value)
+    console.log("Street : ",street.value)
+    console.log("Landmark : ",landmark.value)
+    console.log("mobile : ",mobile.value)
+    console.log("pincode: ",pincode.value) 
+
+    // alert(
+    //     "firstname : ",firstname.value +
+    //     "lastname : ",lastname.value +
+    //     "doornumber : ",doornumber.value +
+    //     "Street : ",street.value +
+    //     "Landmark : ",landmark.value +
+    //     "mobile : ",mobile.value +
+    //     "pincode: ",pincode.value
+    // )
+}
+
+
+
+    </script>
+
+    
+
+</body>
+</html>
